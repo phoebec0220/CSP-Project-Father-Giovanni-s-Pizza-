@@ -1,6 +1,8 @@
 Phoebe-Chang-Aditi-Bhavsar-Rucha-Damle
 (storyboard, readme, and index due wed)
 
+Create a website that allows the user to place an order at a Pizza restaurant and recieve an image of the item they ordered.
+
 ### Areas: ###
 Homepage: Title bar, logo, background image, 
 image container, menu  
