@@ -11,4 +11,5 @@ menu, response container
 Menu: Title bar, logo, menu, text containers  
 Order: Title bar, logo, menu, image containers,
 checkboxes
+Pizza confirmation: Image container, logo, menu
 
