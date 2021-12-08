@@ -45,7 +45,6 @@ a {
 
 /****Header****/
 header {
-  background-color: #a20a0a;
 }
 .logo {
   float: left;
@@ -68,4 +67,35 @@ header {
   padding: 16px 32px;
   height: 200px;
   display: inline-block;
+}
+
+/****Order****/
+.ordCartCont {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+.ordCart {
+}
+
+.ordPopout {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #ffa36c;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
+}
+.ordOpacity {
+  height: 100%;
+  width: 0;
+  background-color: black;
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }

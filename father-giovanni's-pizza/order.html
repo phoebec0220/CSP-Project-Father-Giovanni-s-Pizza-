@@ -33,7 +33,21 @@
       </div>
     </header>
     <div class="banner">Order</div>
-    <section id="ordPopout"></section>
+    <button onclick="openSide()" class="ordCartCont">
+      <img
+        src="cart.png"
+        alt="shopping cart outline"
+        class="ordCart"
+        height="40px"
+        width="auto"
+      />
+    </button>
+    <div class="ordOpacity" id="inactive" onclick="closeSide()"></div>
+    <section class="ordPopout" id="sidePop">
+      <button onclick="closeSide()" style="font-size: 200%; margin: 0 8px">
+        &larr;
+      </button>
+    </section>
     <section></section>
     <script src="pizza.js"></script>
   </body>
