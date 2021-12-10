@@ -68,6 +68,14 @@ a {
   display: inline-block;
 }
 
+.banner {
+  font-size: 250%;
+  text-align: center;
+  background-color: #a20a0a;
+  padding: 16px;
+  margin: 32px 0;
+}
+
 /****Order****/
 .ordCartCont {
   position: fixed;
