@@ -1,4 +1,4 @@
-/****CSS Reset    https://colorhunt.co/palette/a20a0affa36cf6eec9799351     A20A0A, FFA36C, F6EEC9, 799351****/
+/****CSS Reset    https://colorhunt.co/palette/a20a0affa36cf6eec9799351     a61c1c(A20A0A), FFA36C, F6EEC9, 799351****/
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +71,7 @@ a {
 .banner {
   font-size: 250%;
   text-align: center;
-  background-color: #a20a0a;
+  background-color: #a61c1c;
   padding: 16px;
   margin: 32px 0;
 }
@@ -103,4 +103,57 @@ a {
   top: 0;
   left: 0;
   z-index: 0;
+}
+
+/****Index****/
+#indSec1 {
+  padding: 32px;
+}
+#indMain {
+  color: white;
+  position: relative;
+}
+#indMainText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px;
+}
+#indText1 {
+  font-size: 400%;
+}
+#indText2 {
+  font-size: 200%;
+}
+#indText3 {
+  margin: 32px 0;
+}
+#indText3 a {
+  background-color: #ffa36c;
+  transition: 0.3s;
+  font-size: 180%;
+  padding: 8px 16px;
+}
+#indText3 a:hover {
+  background-color: transparent;
+}
+/****About****/
+
+.columns {
+  float: left;
+  width: 50%;
+  padding: 0 16px;
+}
+
+.rows {
+  width: 100%;
+}
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.abSec {
+  padding: 32px;
 }
