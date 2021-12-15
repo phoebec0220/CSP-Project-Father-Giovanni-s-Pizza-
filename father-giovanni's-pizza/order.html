@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="pizza.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Murecho&display=swap"
       rel="stylesheet"
@@ -45,7 +45,7 @@
     <div class="banner">Order</div>
     
        <!-- Menu -->
-    <nav class="navbar">
+    <nav id="ordNav">
       <h2 id="logo">Order Now</h2>
       <div>
         <label for="cartToggle" class="toggleCart btnStyle btnStyle2"
@@ -367,8 +367,6 @@
       <h1>Thank you for the order</h1>
       <h3 id="orderNumber"></h3>
     </div>
-
-    <script src="pizza.js"></script>
     
     <button onclick="openSide()" class="ordCartCont">
       <img
