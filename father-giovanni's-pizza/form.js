@@ -1,13 +1,3 @@
-// POPOUT
-function openSide() {
-  document.getElementById("sidePop").style.width = "250px";
-  document.getElementById("inactive").style.width = "100%";
-}
-function closeSide() {
-  document.getElementById("sidePop").style.width = "0";
-  document.getElementById("inactive").style.width = "0";
-}
-// FORM
 // show a message with a type of the input
 function showMessage(input, message, type) {
   // get the small element and set the message
