@@ -2,50 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="pizza.css" />
+    <script src="https://use.fontawesome.com/7488f3a572.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Murecho&display=swap"
-      rel="stylesheet"
-    />
-    <title>Father Giovanni's Pizza Order</title>
+    <link rel="stylesheet" href="pizzastyles.css" />
+    <title>Father Giovanni's Pizza: Order</title>
   </head>
+
   <body>
-    <header>
-      <div class="logo">
-        <img
-          src="logo2.png"
-          alt="chef holding pizza and giving thumbs up"
-          height="200px"
-          width="auto"
-        />
-      </div>
-      <div class="headerR">
-        <div class="title">Father Giovanni's Pizza</div>
-        <div class="navbar">
-          <div>
-            <button><a href="index.html">Home</a></button>
-          </div>
-          <div>
-            <button><a href="menu.html">Menu</a></button>
-          </div>
-          <div>
-            <button><a href="about.html">About</a></button>
-          </div>
-          <div>
-            <button><a href="order.html">Order</a></button>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="banner">Order</div>
-    
-       <!-- Menu -->
-    <nav id="ordNav">
+    <!-- Some images will show error in console due not having 'https' in the url,  nothing to worry about -->
+    <input type="checkbox" id="cartToggle" name="toggle" />
+
+    <!-- Menu -->
+    <nav class="navbar">
       <h2 id="logo">Order Now</h2>
       <div>
         <label for="cartToggle" class="toggleCart btnStyle btnStyle2"
@@ -70,27 +41,26 @@
         <div class="recipe">
           <p class="name">Create Your Own Pizza</p>
           <img
-            src="order1.jpg" alt="create your own pizza"
+            src="https://lcemedia.littlecaesars.com/custompizza/CYO_RegLg.jpg"
           />
           <a class="btnStyle3 btnStyle addToCart" id="addToCartCustom"
             >Add to Cart</a>
-          <p class="price">$12</p> <br>
-          <div id="checkOrderCustom" title="Custom Pizza">
+
+          <p class="price"><span>12</span>$</p>
+          <div id="checkOrderCustom" title="Custom">
             <h3 class="listHeading">Size:</h3>
             <ul class="listOfIngredients" id="recipeSize1">
-              <form>
-                <li><input type="radio" id="size0" name="size" required value="9"/>Small</li>
-                <li><input type="radio" id="size1" name="size" required value="12" />Medium</li>
-                <li><input type="radio" id="size2" name="size" required value="15" checked/>Large</li>
-                <li><input type="radio" id="size3" name="size" required value="18" />X-Large</li>
-              </form>
+              <li><input type="radio" name="size" value="9" />Small</li>
+              <li><input type="radio" name="size" value="12" />Medium</li>
+              <li><input type="radio" name="size" checked value="15" />Large</li>
+              <li><input type="radio" name="size" value="18" />X-Large</li>
             </ul>
 
             <h3 class="listHeading">Sauce:</h3>
             <ul class="listOfIngredients" id="recipeSauce">
-              <li><input type="radio" required name="sauce" checked />Marinara Sauce</li>
-              <li><input type="radio" required name="sauce" />White Sauce</li>
-              <li><input type="radio" required name="sauce" />None</li>
+              <li><input type="radio" name="sauce" checked />Marinara Sauce</li>
+              <li><input type="radio" name="sauce" />White Sauce</li>
+              <li><input type="radio" name="sauce" />None</li>
             </ul>
 
             <h3 class="listHeading">Toppings:</h3>
@@ -107,7 +77,6 @@
               <li><input type="checkbox" />Jalepeño Peppers</li>
               <li><input type="checkbox" />Pineapple</li>
             </ul>
-
             <a class="btnStyle listOver">Done</a>
 
             <h4 class="totalSize" id="totalSize1">
@@ -121,14 +90,16 @@
 	   <h4 class="totalFinal" id="totalFinal1">
               Total: <span>0</span>$
             </h4>
+	
           </div>
         </div>
-        <!-- End of Recipe 1, Build Your Own Pizza -->
 
-        <!-- Recipe 2, Classic Cheese Pizza -->
+        <!-- Recipe 2,  -->
         <div class="recipe">
-          <p class="name">Cheese Pizza</p>
-          <img src="order2.jpg" alt="cheese pizza">
+          <p class="name">Macaroni</p>
+          <img
+            src="https://www.planetveggie.co.uk/wp-content/uploads/2014/08/spinach-pesto-mozzarella-pasta.jpg"
+          />
           <a class="btnStyle3 btnStyle addToCart" id="addToCartMacaroni"
             >Add to Cart</a
           >
@@ -171,8 +142,10 @@
 
         <!-- Recipe 3 -->
         <div class="recipe">
-          <p class="name">Pepperoni Pizza</p>
-          <img src="order3.jpg" alt="pepperoni pizza">
+          <p class="name">Pizza</p>
+          <img
+            src="https://i.kinja-img.com/gawker-media/image/upload/wafswectpmbr0zmug9ly.jpg"
+          />
           <a class="btnStyle3 btnStyle addToCart" id="addToCartPizza"
             >Add to Cart</a
           >
@@ -213,8 +186,10 @@
 
         <!-- Recipe 4 -->
         <div class="recipe">
-          <p class="name">Veggie Pizza</p>
-          <img src="order4.jpg" alt="veggie pizza">
+          <p class="name">Salad</p>
+          <img
+            src="http://tarasmulticulturaltable.com/wp-content/uploads/2015/03/Shopska-2-of-3-1024x680.jpg"
+          />
           <a class="btnStyle3 btnStyle addToCart" id="addToCartSalad"
             >Add to Cart</a
           >
@@ -235,7 +210,6 @@
               <li><input type="checkbox" checked />Cucumber</li>
               <li><input type="checkbox" checked />Cheese</li>
             </ul>
-            <!--<a class="btnStyle3 btnStyle addIngredient">Add Ingredient</a>-->
             <a class="btnStyle listOver">Done</a>
 	    <h4 class="totalSize" id="totalSize4">
               Size Total: <span>12</span>$
@@ -251,103 +225,20 @@
           </div>
         </div>
 
-        <!-- Recipe 5 -->
-        <div class="recipe">
-          <p class="name">Hawaiian Pizza</p>
-          <img src="order5.jpg" alt="">
-          <a class="btnStyle3 btnStyle addToCart" id="addToCartSpaghetti"
-            >Add to Cart</a
-          >
-          <p class="price"><span>12</span>$</p>
-          <div id="checkOrderSpaghetti" title="Spaghetti">
-
-	    <h3 class="listHeading">Size:</h3>
-            <ul class="listOfIngredients" id="recipeSize5">
-              <li><input type="radio" name="size" value="3" />Small</li>
-              <li><input type="radio" name="size" value="6" />Medium</li>
-              <li><input type="radio" name="size" checked value="9" />Large</li>
-              <li><input type="radio" name="size" value="12" />X-Large</li>
-            </ul>
-
-            <h3 class="listHeading">List of Ingredients:</h3>
-            <ul class="listOfIngredients" id="recipe5">
-              <li><input type="checkbox" checked />Spaghetti</li>
-              <li><input type="checkbox" checked />Tomato Sauce</li>
-              <li><input type="checkbox" checked />Ground Beef</li>
-              <li><input type="checkbox" checked />Onion</li>
-            </ul>
-            <!--<a class="btnStyle3 btnStyle addIngredient">Add Ingredient</a>-->
-            <a class="btnStyle listOver">Done</a>
-	    <h4 class="totalSize" id="totalSize5">
-              Size Total: <span>12</span>$
-            </h4>
-
-            <h4 class="totalDialog" id="totalDialog5">
-              Total: <span>15</span>$
-            </h4>
-
-	   <h4 class="totalFinal" id="totalFinal5">
-              Total: <span>0</span>$
-            </h4>
-          </div>
-        </div>
-
-        <!-- Recipe 6 -->
-        <div class="recipe">
-          <p class="name">Italian Sausage Pizza</p>
-          <img src="order6.jpg" alt="italian sausage pizza">
-          <a class="btnStyle3 btnStyle addToCart" id="addToCartRisotto"
-            >Add to Cart</a
-          >
-          <p class="price"><span>9</span>$</p>
-          <div id="checkOrderRisotto" title="Risotto">
-	    <h3 class="listHeading">Size:</h3>
-            <ul class="listOfIngredients" id="recipeSize6">
-              <li><input type="radio" name="size" value="3" />Small</li>
-              <li><input type="radio" name="size" value="6" />Medium</li>
-              <li><input type="radio" name="size" checked value="9" />Large</li>
-              <li><input type="radio" name="size" value="12" />X-Large</li>
-            </ul>
-
-
-            <h3 class="listHeading">List of Ingredients:</h3>
-            <ul class="listOfIngredients" id="recipe6">
-              <li><input type="checkbox" checked />Risotto Rice</li>
-              <li><input type="checkbox" checked />Chicken Stock</li>
-              <li><input type="checkbox" checked />Onion</li>
-            </ul>
-            <!--<a class="btnStyle3 btnStyle addIngredient">Add Ingredient</a>-->
-            <a class="btnStyle listOver">Done</a>
-	    <h4 class="totalSize" id="totalSize6">
-              Size Total: <span>12</span>$
-            </h4>
-
-            <h4 class="totalDialog" id="totalDialog6">
-              Total: <span>15</span>$
-            </h4>
-
-	   <h4 class="totalFinal" id="totalFinal6">
-              Total: <span>0</span>$
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    
     <div id="finishOrderDialog" title="Confirm Order">
       <div id="finalOrderList">
         <h3>Your Orders:</h3>
         <ol></ol>
       </div>
 
-      <form action="" method="POST">      
+      <form action="order_connect.php" method="post">      
         <table class="user_info">
           <div id="buyerInfo">
-            <input type="text" id="buyerName" placeholder="Enter Name" />
-            <input type="text" id="buyerNumber" placeholder="Enter Phone Number" />
-            <input type="text" id="buyerAddress" placeholder="Enter Address Line 1" />
-            <input type="text" id="buyerName" placeholder="Enter Address Line 2" />
-            <a class="btnStyle order">Order!</a>
+            <input type="text" id="buyerName" name="buyerName" placeholder="Enter Full Name" />
+            <input type="text" id="buyerNumber" name="buyerNumber" placeholder="Enter Phone Number" />
+            <input type="text" id="buyerAddress1" name="buyerAddress1" placeholder="Enter Address Line 1" />
+            <input type="text" id="buyerAddress2" name="buyerAddress2" placeholder="Enter Address Line 2" />
+            <input type="submit" value="Submit">
           </table>
        </div>
       </form>
@@ -355,25 +246,9 @@
 
     <div id="thanksMessage">
       <h1>Thank you for the order</h1>
-      <h3 id="orderNumber"></h3>
+      <h3>We will have it delivered soon</h3>
     </div>
-    
-    <button onclick="openSide()" class="ordCartCont">
-      <img
-        src="cart.png"
-        alt="shopping cart outline"
-        class="ordCart"
-        height="40px"
-        width="auto"
-      />
-    </button>
-    <div class="ordOpacity" id="inactive" onclick="closeSide()"></div>
-    <section class="ordPopout" id="sidePop">
-      <button onclick="closeSide()" style="font-size: 200%; margin: 0 8px">
-        &larr;
-      </button>
-    </section>
-    <section></section>
-    <script src="/order.js" type="text/javascript"></script>
+
+    <script src="pizza.js" type="module"></script>
   </body>
 </html>
