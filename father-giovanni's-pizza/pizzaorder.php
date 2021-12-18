@@ -249,6 +249,6 @@
       <h3>We will have it delivered soon</h3>
     </div>
 
-    <script src="pizza.js" type="module"></script>
+    <script src="order.js" type="module"></script>
   </body>
 </html>
