@@ -12,5 +12,6 @@ Order: Title bar, logo, menu, image containers,
 checkboxes  
 Pizza confirmation: Image container, logo, menu
 
-.bak files are automatically generated backup files
+.bak files are automatically generated backup files,
+
 used xampp for server and phpmyadmin for database
