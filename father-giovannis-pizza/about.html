@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="pizza.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Murecho&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      section {
+        padding: 32px;
+      }
+    </style>
+    <title>Father Giovanni's Pizza About</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="logo2.png"
+          alt="chef holding pizza and giving thumbs up"
+          height="200px"
+          width="auto"
+        />
+      </div>
+      <div class="headerR">
+        <div class="title">Father Giovanni's Pizza</div>
+        <div class="navbar">
+          <div>
+            <button><a href="index.html">Home</a></button>
+          </div>
+          <div>
+            <button><a href="menu.html">Menu</a></button>
+          </div>
+          <div>
+            <button><a href="about.html">About</a></button>
+          </div>
+          <div>
+            <button><a href="pizzaorder.php">Order</a></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="banner">About Us</div>
+    <section>
+      <div class="rows">
+        <div class="columns" style="padding-left: 125px;">
+          We may be famous for our pizza, but our menu doesn’t stop there—
+          we’ve got all the pizza sides and starters, like our roasted garlic knots,
+          savory cheesesticks and boneless chicken poppers! Need something to perfectly 
+          complement your pizza? Father’s Wings are roasted to golden brown perfection 
+          and tossed with a mouthwatering glaze of your choice, or no sauce at all if you 
+          prefer! No matter what you like with your pizza, we carry 8 delicious dipping 
+          sauces to go right along with them.Don’t forget the drinks! We’ve got a great 
+          selection of your favorite refreshing sodas to wash it all down. Ice cold 2-liter
+          bottles of Pepsi, Dr. Pepper or Mountain Dew and more are quick and easy to add 
+          to your order. Need something sweet to cap off your meal? Father has got you covered! 
+        </div>
+        <div class="columns">
+          <img src="about1.jpeg" alt="pizza box with pizza and chef" 
+          style="height: 350px; width: auto; padding-left: 20px;"/>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="rows">
+        <div class="columns">
+          <img src="about2.jfif" alt="pizza oven and italian man" style="height: 350px; width: auto;" />
+        </div>
+        <div class="columns">
+          With tempting desserts like our chocolate chip cookie, double chocolate brownie and shareable cinnamon pull-aparts, it’s okay to splurge at one of our many pizza stores open in your neighborhood! No matter who’s coming to dinner, when you’re hosting your event, or what flavors you’re mood for, Father Giovanni’s is your one-stop shop for pizza delivery open now! We’ve been dedicated to bringing the pizza you love at great prices for over 25 years—that’s why we keep changing the game with discounts, promos and rewards to satisfy your cravings taking a toll on your wallet. Whether you’re hungry for one of our world-famous pizzas, intensely delicious wings, shareable sides or succulent sweets, your neighborhood Father Giovanni’s pizzeria is the go-to place!
+        </div>
+      </div>
+    </section>
+    <section id="abForm">
+      <div class="formCont center">
+      <form action="signup.html" method="post" id="signup">
+        <h1>Send us a message!</h1>
+        <div class="field">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your fullname"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="message">Message:</label>
+          <input
+            type="text"
+            id="message"
+			style="height: 200px"
+            name="message"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <button type="submit" class="full formbtn">Submit!</button>
+        </div>
+      </form>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
