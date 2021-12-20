@@ -1,5 +1,4 @@
 Phoebe-Chang-Aditi-Bhavsar-Rucha-Damle
-(storyboard, readme, and index due wed)
 
 Create a website that allows the user to place an order at a Pizza restaurant and recieve an image of the item they ordered.
 
@@ -13,3 +12,5 @@ Order: Title bar, logo, menu, image containers,
 checkboxes  
 Pizza confirmation: Image container, logo, menu
 
+.bak files are automatically generated backup files
+used xampp for server and phpmyadmin for database
