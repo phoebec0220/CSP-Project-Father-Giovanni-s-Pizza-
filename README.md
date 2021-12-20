@@ -16,5 +16,7 @@ Pizza confirmation: PHP for database, tables, image containers, headers
 * User can edit database
 
 .bak files are automatically generated backup files
+
 Used xampp for server and phpmyadmin for database
+
 Old pizza is backup in case we mess something up dont look at it
