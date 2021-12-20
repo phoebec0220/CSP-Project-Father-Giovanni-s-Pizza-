@@ -158,7 +158,8 @@ select {
   font-size: 1rem;
 }
 input::placeholder {
-  color: #fff;
+  color: gray;
+  font-size: 75%;
 }
 input:focus,
 textarea:focus,
@@ -466,7 +467,6 @@ input {
 }
 
 .recipe {
-  background-image: url("http://mariecatribs.com/assets/styles/images/drawn-frame-big.png");
   background-size: 100% 100%;
   padding: 10px;
   margin-bottom: 40px;
