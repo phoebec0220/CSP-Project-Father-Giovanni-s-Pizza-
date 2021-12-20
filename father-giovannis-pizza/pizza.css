@@ -100,7 +100,7 @@ a {
 
 /****About****/
 .columns {
-  float: left;
+  float: none;
   width: 40%;
   padding-left: 50px;
 }
@@ -131,7 +131,6 @@ form h1 {
   padding: 5px 0;
   font-size: 1.4rem;
   font-weight: normal;
-  text-align: center;
   color: #111;
 }
 .field {
@@ -150,17 +149,17 @@ label {
 input,
 textarea,
 select {
-  border: solid 1px #A9A9A9;
+  border: solid 1px #696969;
   border-radius: 3px;
   display: inline-block;
   padding: 0.5rem 0.75rem;
   width: 100%;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 13px;
 }
 input::placeholder {
   color: gray;
-  font-size: 75%;
+  font-size: 100%;
 }
 input:focus,
 textarea:focus,
@@ -192,7 +191,7 @@ select.error:focus {
 input.success,
 textarea.success,
 select.success {
-  border-color: #198754;
+  border-color: #696969;
 }
 input.success:focus,
 textarea.success:focus {
