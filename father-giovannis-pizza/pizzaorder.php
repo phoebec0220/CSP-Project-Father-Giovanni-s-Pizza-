@@ -152,11 +152,11 @@
             </h4>
 
             <h4 class="totalDialog" id="totalDialog2">
-              Total: <span>0</span>$
+              Total: $<span>0</span>
             </h4>
 
 	   <h4 class="totalFinal" id="totalFinal2">
-              Total: <span>0</span>$
+              Total: $<span>0</span>
             </h4>
 
           </div>
