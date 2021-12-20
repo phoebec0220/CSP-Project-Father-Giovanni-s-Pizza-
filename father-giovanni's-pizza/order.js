@@ -10,17 +10,12 @@ function closeSide() {
 
 // ORDER
 $(document).ready(function() {
-  
-
-	$( "a" ).click(function( event ) {
-  		event.preventDefault();
-	});
 
 	var numOfOrders = 0;
 	$(".num").text(numOfOrders);
 
 	// hide dialogs on start
-	$("#thanksMessage, #checkOrderCustom, #checkOrderMacaroni, #checkOrderPizza, #checkOrderSalad, #checkOrderSpaghetti, #checkOrderRisotto, #finishOrderDialog").hide();
+	$("#thanksMessage, #checkOrderCustom, #checkOrderCheesePizza, #checkOrderPepperoniPizza, #checkOrderSausagePizza, #checkOrderAlfredoPizza, #checkOrderTuscanPizza, #checkOrderHawaiianPizza, #checkOrderItalianPizza, #checkOrderPopper, #checkOrderJalapenoPopper, #checkOrderGarlicKnotts, #checkOrderParmesan, #checkOrderCheesesticks, #checkOrderOriginal, #checkOrderRoasted, #checkOrderBuffalo, #checkOrderBBQWings, #checkOrderChipotle, #checkOrderCinnamon, #checkOrderCookie, #checkOrderBrownie, #checkOrderMinuteMaid, #checkOrderPepsi, #checkOrderMountainDew, #checkOrderCoke, #checkOrderAquafina, #finishOrderDialog").hide();
 
 	// open dialog on click
 	$("#addToCartCustom").on("click", function () {
@@ -31,45 +26,205 @@ $(document).ready(function() {
               closeText: "X"});
 	})
 
-	$("#addToCartMacaroni").on("click", function () {
-		$("#checkOrderMacaroni").dialog({
+	$("#addToCartCheesePizza").on("click", function () {
+		$("#checkOrderCheesePizza").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartPizza").on("click", function () {
-		$("#checkOrderPizza").dialog({
+	$("#addToCartPepperoniPizza").on("click", function () {
+		$("#checkOrderPepperoniPizza").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartSalad").on("click", function () {
-		$("#checkOrderSalad").dialog({
+	$("#addToCartSausagePizza").on("click", function () {
+		$("#checkOrderSausagePizza").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartSpaghetti").on("click", function () {
-		$("#checkOrderSpaghetti").dialog({
+	$("#addToCartAlfredoPizza").on("click", function () {
+		$("#checkOrderAlfredoPizza").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
 
-	$("#addToCartRisotto").on("click", function () {
-		$("#checkOrderRisotto").dialog({
+	$("#addToCartTuscanPizza").on("click", function () {
+		$("#checkOrderTuscanPizza").dialog({
 				hide: "blind",
             	show : "blind",
             	width: "400px",
               closeText: "X"});
 	})
+	
+	$("#addToCartHawaiianPizza").on("click", function () {
+		$("#checkOrderHawaiianPizza").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+	
+	$("#addToCartItalianPizza").on("click", function () {
+		$("#checkOrderItalianPizza").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+	
+	$("#addToCartPopper").on("click", function () {
+		$("#checkOrderPopper").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+	
+	$("#addToCartJalapeno").on("click", function () {
+		$("#checkOrderJalapenoPopper").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+
+	$("#addToCartGarlicKnotts").on("click", function () {
+		$("#checkOrderGarlicKnotts").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+
+	$("#addToCartParmesan").on("click", function () {
+		$("#checkOrderParmesan").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+
+	$("#addToCartCheesesticks").on("click", function () {
+		$("#checkOrderCheesesticks").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})
+
+	$("#addToCartOriginal").on("click", function () {
+		$("#checkOrderOriginal").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})	
+	
+	$("#addToCartRoasted").on("click", function () {
+		$("#checkOrderRoasted").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})	
+
+	$("#addToCartBuffalo").on("click", function () {
+		$("#checkOrderBuffalo").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})	
+
+	$("#addToCartBBQWings").on("click", function () {
+		$("#checkOrderBBQWings").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})	
+	
+	$("#addToCartChipotle").on("click", function () {
+		$("#checkOrderChipotle").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})			
+
+	$("#addToCartCinnamon").on("click", function () {
+		$("#checkOrderCinnamon").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})		
+	
+	$("#addToCartCookie").on("click", function () {
+		$("#checkOrderCookie").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})		
+
+	$("#addToCartBrownie").on("click", function () {
+		$("#checkOrderBrownie").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})		
+
+	$("#addToCartMinuteMaid").on("click", function () {
+		$("#checkOrderMinuteMaid").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})		
+
+	$("#addToCartPepsi").on("click", function () {
+		$("#checkOrderPepsi").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})		
+
+	$("#addToCartMountainDew").on("click", function () {
+		$("#checkOrderMountainDew").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})		
+
+	$("#addToCartCoke").on("click", function () {
+		$("#checkOrderCoke").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})		
+
+	$("#addToCartAquafina").on("click", function () {
+		$("#checkOrderAquafina").dialog({
+				hide: "blind",
+            	show : "blind",
+            	width: "400px",
+              closeText: "X"});
+	})			
 
 	// increase/decrease the price of order if an item is added/removed
 	function checkboxChange(x) {
@@ -80,20 +235,23 @@ $(document).ready(function() {
 			if($(this).is(":checked")){
 				priceDialog+=1;
 			}
+				
 				$("#totalDialog"+x+">span").text(priceDialog);
-				final = Number($("#totalSize"+x+">span").text()) + priceDialog;
+				final = Number($("#totalSize"+x+">span").text()) + priceDialog;				
+				console.log(final);
 				$("#totalFinal"+x+">span").text(final);
 			$(this).change(function () {
 				if ($(this).is(":checked")) {
-					priceDialog += 1;
-					console.log(priceDialog);
+					priceDialog += 1;					
 					$("#totalDialog"+x+">span").text(priceDialog);
-					final = Number($("#totalSize"+x+">span").text()) + priceDialog;
+					final = Number($("#totalSize"+x+">span").text()) + priceDialog;	
+					console.log(final);
 					$("#totalFinal"+x+">span").text(final);
 				}else{
 					priceDialog -= 1;
 					$("#totalDialog"+x+">span").text(priceDialog);
-					final = Number($("#totalSize"+x+">span").text()) + priceDialog;
+					final = Number($("#totalSize"+x+">span").text()) + priceDialog;	
+					console.log(final);
 					$("#totalFinal"+x+">span").text(final);
 
 				}
@@ -107,8 +265,7 @@ $(document).ready(function() {
 
 		$("#recipeSize"+x).children("li").children("input").each(function () {
 			if($(this).is(":checked")){
-				priceDialog = Number($(this).val());
-				console.log(priceDialog);
+				priceDialog = Number($(this).val());				
 			}
 			$("#totalSize"+x+">span").text(priceDialog);	
 			final = Number($("#totalDialog"+x+">span").text()) + priceDialog;
@@ -117,8 +274,7 @@ $(document).ready(function() {
 			
 			$(this).change(function () {
 				if ($(this).is(":checked")) {
-					priceDialog = Number($(this).val());
-					console.log(priceDialog);
+					priceDialog = Number($(this).val());					
 					$("#totalSize"+x+">span").text(priceDialog);	
 					final = Number($("#totalDialog"+x+">span").text()) + priceDialog;
 					$("#totalFinal"+x+">span").text(final);
@@ -134,55 +290,53 @@ $(document).ready(function() {
 	$('#recipeSize4').children('li').click(radioChange(4));
 	$('#recipeSize5').children('li').click(radioChange(5));
 	$('#recipeSize6').children('li').click(radioChange(6));
+	$('#recipeSize7').children('li').click(radioChange(7));
+	$('#recipeSize8').children('li').click(radioChange(8));
+	$('#recipeSize9').children('li').click(radioChange(9));
+	$('#recipeSize10').children('li').click(radioChange(10));
+	$('#recipeSize11').children('li').click(radioChange(11));
+	$('#recipeSize12').children('li').click(radioChange(12));
+	$('#recipeSize13').children('li').click(radioChange(13));
+	$('#recipeSize14').children('li').click(radioChange(14));
+	$('#recipeSize15').children('li').click(radioChange(15));
+	$('#recipeSize16').children('li').click(radioChange(16));
+	$('#recipeSize17').children('li').click(radioChange(17));
+	$('#recipeSize18').children('li').click(radioChange(18));	
+	$('#recipeSize19').children('li').click(radioChange(19));
+	$('#recipeSize20').children('li').click(radioChange(20));
+	$('#recipeSize21').children('li').click(radioChange(21));
+	$('#recipeSize22').children('li').click(radioChange(22));
+	$('#recipeSize23').children('li').click(radioChange(23));
+	$('#recipeSize24').children('li').click(radioChange(24));
+	$('#recipeSize25').children('li').click(radioChange(25));
+	$('#recipeSize26').children('li').click(radioChange(26));	
 
 	$('#recipe1').children('li').click(checkboxChange(1));
 	$('#recipe2').children('li').click(checkboxChange(2));
 	$('#recipe3').children('li').click(checkboxChange(3));
-	$('#recipe3').children('li').click(checkboxChange(4));
-	$('#recipe3').children('li').click(checkboxChange(5));
-	$('#recipe3').children('li').click(checkboxChange(6));
-
-	
-
-	$(".addIngredient").on("click", function () {
-		// Creates input field and two buttons for adding an ingrediant that's not on the list
-		var inputIng = '<input type="text" id="newIngredient">';
-		var confirmInput = '<a class="btnStyle3 btnStyle confirmInput">&#10004;</a>';
-		var cancelInput = '<a class="btnStyle3 btnStyle cancelInput">&#10008;</a>';
-		var inputWrap = '<div class="addIngredientWrap">' + inputIng + confirmInput + cancelInput + '</div>'
-		$(this).parent().children("ul").after(inputWrap);
-    $("#newIngredient").focus();
-    $("#newIngredient").attr("placeholder", "separate ingredients with a comma");
-
-		// Confirm button adds the new ingrediant to the list of ingrediants
-		$(".addIngredientWrap > .confirmInput").on("click", function () {
-			if ($("#newIngredient").val() != "") {
-        //split takes the value of the input and splits it into separate array elements after every comma
-				var newIngredient = ($(".addIngredientWrap input").val()).split(",");
-				var newCheckbox = '<input type="checkbox" checked>';
-        
-        for (var i = 0; i < newIngredient.length; i++){
-         $(this).parent().siblings("ul").append("<li>" + newCheckbox + newIngredient[i] + "  (+3$)</li>");
-        }
-				
-
-				$('#recipe1').children('li').click(checkboxChange(1));
-				$('#recipe2').children('li').click(checkboxChange(2));
-				$('#recipe3').children('li').click(checkboxChange(3));
-				$('#recipe3').children('li').click(checkboxChange(4));
-				$('#recipe3').children('li').click(checkboxChange(5));
-				$('#recipe3').children('li').click(checkboxChange(6));
-
-				$(this).parent().remove();
-			}else{
-				$("#newIngredient").attr("placeholder", "Please add ingrediant");
-			}
-		});
-		// Remove button hides the input
-		$(".addIngredientWrap > .cancelInput").on("click", function () {
-			$(this).parent().remove();
-		})
-	})// add ingredient button
+	$('#recipe4').children('li').click(checkboxChange(4));
+	$('#recipe5').children('li').click(checkboxChange(5));
+	$('#recipe6').children('li').click(checkboxChange(6));
+	$('#recipe7').children('li').click(checkboxChange(7));	
+	$('#recipe8').children('li').click(checkboxChange(8));
+	$('#recipe9').children('li').click(checkboxChange(9));
+	$('#recipe10').children('li').click(checkboxChange(10));
+	$('#recipe11').children('li').click(checkboxChange(11));
+	$('#recipe12').children('li').click(checkboxChange(12));
+	$('#recipe13').children('li').click(checkboxChange(13));
+	$('#recipe14').children('li').click(checkboxChange(14));
+	$('#recipe15').children('li').click(checkboxChange(15));
+	$('#recipe16').children('li').click(checkboxChange(16));
+	$('#recipe17').children('li').click(checkboxChange(17));
+	$('#recipe18').children('li').click(checkboxChange(18));
+	$('#recipe19').children('li').click(checkboxChange(19));
+	$('#recipe20').children('li').click(checkboxChange(20));
+	$('#recipe21').children('li').click(checkboxChange(21));
+	$('#recipe22').children('li').click(checkboxChange(22));
+	$('#recipe23').children('li').click(checkboxChange(23));
+	$('#recipe24').children('li').click(checkboxChange(24));
+	$('#recipe25').children('li').click(checkboxChange(25));
+	$('#recipe26').children('li').click(checkboxChange(26));	
 
 	$(".listOver").on("click", function () {
 		var orderName = '<h3 class="orderName"><span>' + $(this).parent().siblings(".ui-dialog-titlebar").children("span").text() + '</span><a class="delBtn">&#10008;</a>' +'</h3>';
