@@ -18,3 +18,6 @@ Pizza confirmation: PHP for database, tables, image containers, headers
 .bak files are automatically generated backup files  
 Used xampp for server and phpmyadmin for database  
 Old pizza is backup in case we mess something up dont look at it
+
+Video demo of website:
+https://user-images.githubusercontent.com/95243352/146876493-0fa52902-b8e8-4b62-8546-68b829df3623.mov
