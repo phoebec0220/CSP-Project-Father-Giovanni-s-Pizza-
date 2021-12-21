@@ -100,7 +100,7 @@ a {
 
 /****About****/
 .columns {
-  float: none;
+  float: left;
   width: 40%;
   padding-left: 50px;
 }
